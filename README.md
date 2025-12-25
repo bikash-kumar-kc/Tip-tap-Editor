@@ -1,16 +1,46 @@
-# React + Vite
+# 📝 Rich Text Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and professional rich text editor built with React.js and JavaScript. Features a clean interface with comprehensive text formatting capabilities using modern DOM APIs.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Text Formatting** - Bold, Italic, Strikethrough, Superscript, Subscript
+- **Headings** - Six heading levels (H1 to H6)
+- **Text Alignment** - Left, Center, Right, Justify
+- **Lists** - Bullet and Numbered lists
+- **Code Blocks** - Multi-line code blocks with syntax styling
+- **Links** - Insert hyperlinks with custom URLs
+- **Images** - Upload from computer or insert via URL
+- **Undo/Redo** - Full history tracking
+- **Keyboard Shortcuts** - Ctrl+B (Bold), Ctrl+I (Italic), Ctrl+Z (Undo), Ctrl+Y (Redo)
+- **Real-time Toolbar Updates** - Active formatting indicators
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** - JavaScript library for building user interfaces
+- **Vite** - Fast build tool and development server
+- **Chakra UI** - Modern component library for React
+- **Lucide React** - Beautiful and consistent icon library
+- **JavaScript** - Core programming language
 
-## Expanding the ESLint configuration
+## 🚀 Installation
+```bash
+# Clone the repository
+git clone https://github.com/bikash-kumar-kc/Tip-tap-Editor.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Navigate to project directory
+cd tiptap-editor
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 📦 Dependencies
+```bash
+npm install @chakra-ui/react lucide-react
+```
+
+**Built with React.js, Vite, and Chakra UI**
